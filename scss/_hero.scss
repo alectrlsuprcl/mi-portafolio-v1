@@ -1,7 +1,7 @@
 @import 'variables';
 
 .hero {
-    background-image: url('/assets/hero-image-7.jpg'); /* Ruta a la imagen */
+    background-image: url('assets/hero-image-7.jpg'); /* Ruta a la imagen */
     background-size: cover; /* Cubre todo el espacio del hero */
     background-position: center; /* Centra la imagen */
     color: $light-bg-color;
