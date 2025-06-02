@@ -48,9 +48,9 @@ header nav a:hover {
 }
 
 .hero {
-  background-image: url("../assets/hero-image-7.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../assets/hero-image-7.jpg"); /* Ruta a la imagen */
+  background-size: cover; /* Cubre todo el espacio del hero */
+  background-position: center; /* Centra la imagen */
   color: #EAEAEA;
   text-align: center;
   padding: 200px 0;
