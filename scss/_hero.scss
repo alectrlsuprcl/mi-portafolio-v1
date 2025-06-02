@@ -1,0 +1,40 @@
+// scss/_hero.scss
+@import 'variables';
+
+.hero {
+    background-image: url('../assets/hero-image-7.jpg');
+    background-size: cover;
+    background-position: center;
+    color: $light-bg-color;
+    text-align: center;
+    padding: 200px 0;
+    position: relative;
+
+    &-overlay {
+        background-color: rgba($primary-color, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: $light-bg-color;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        color: $light-bg-color;
+    }
+}

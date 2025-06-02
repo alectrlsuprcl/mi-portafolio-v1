@@ -1,0 +1,36 @@
+// scss/_contacto.scss
+@import 'variables';
+
+.contacto {
+    background-color: $beige-bg-color;
+    padding: 80px 0;
+    text-align: center;
+
+    h2 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        color: $primary-color;
+    }
+
+    p {
+        margin-bottom: 30px;
+        color: #555555;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: $secondary-color;
+        color: $white-color;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+}

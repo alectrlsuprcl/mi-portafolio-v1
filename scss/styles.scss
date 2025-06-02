@@ -1,0 +1,50 @@
+// scss/styles.scss
+@import 'variables';
+@import 'base';
+@import 'header';
+@import 'hero';
+@import 'sections';
+@import 'portfolio';
+@import 'contacto';
+@import 'footer';
+
+/* Diseño Responsivo con Media Queries */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .destacados-grid,
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .social-links {
+        margin-top: 10px;
+    }
+
+    footer .social-links li {
+        margin-left: 10px;
+    }
+}
