@@ -48,7 +48,7 @@ header nav a:hover {
 }
 
 .hero {
-  background-image: url("assets/hero-image-7.jpg"); /* Ruta a la imagen */
+  background-image: url('assets/hero-image-7.jpg'); /* Ruta a la imagen */
   background-size: cover; /* Cubre todo el espacio del hero */
   background-position: center; /* Centra la imagen */
   color: #EAEAEA;
@@ -143,9 +143,9 @@ header nav a:hover {
   color: #2DAA9E;
 }
 .portafolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  display: grid; /* Habilita el modelo de cuadrícula */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Crea columnas adaptables de izquierda a derecha */
+  gap: 30px; /* Espacio entre los elementos de la cuadrícula */
   margin-top: 30px;
 }
 .portafolio-item {
@@ -267,5 +267,3 @@ footer .social-links a:hover {
     margin-left: 10px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
